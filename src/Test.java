@@ -4,9 +4,9 @@ public class Test
 
 	public static void main(String[] args) 
 	{
-		int num = 1234567;
+		int num = 2;
 		
-		DefaultFormatter d = new DefaultFormatter();
+		BaseTwoFormatter d = new BaseTwoFormatter();
 		
 		System.out.println(d.format(num));
 		
